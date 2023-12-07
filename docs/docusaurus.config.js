@@ -58,25 +58,65 @@ const config = {
       },
     ],
   ],
-
-  themeConfig: {
+  themeConfig:
+  /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+  ({
+    // Replace with your project's social card
+    image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'paper',
       logo: {
-        alt: 'Your Logo',
+        alt: 'paper',
         src: 'img/logo.svg',
       },
       items: [
-        { to: '/blog', label: 'Blog', position: 'left' },
-        // Add other navbar items if needed
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Docs',
+        },
+        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          href: 'https://github.com/neuralmesh/paper',
+          label: 'GitHub',
+          position: 'right',
+        },
       ],
     },
     footer: {
       style: 'dark',
-      // Define footer links and copyright as needed
+      links: [
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'GitHub',
+              href: 'https://github.com/neuralmesh',
+            },
+          ],
+        },
+        {
+          title: 'More',
+          items: [
+            {
+              label: 'Blog',
+              to: '/blog',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/neuralmesh/paper',
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} its yours. make something great.`,
     },
-    // Define your prism theme settings if needed
-  },
+    prism: {
+      theme: prismThemes.github,
+      darkTheme: prismThemes.dracula,
+    },
+  }),
 };
 
 export default config;
