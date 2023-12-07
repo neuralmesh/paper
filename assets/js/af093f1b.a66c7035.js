@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[616],{8193:s=>{s.exports=JSON.parse('{"label":"non-profit","permalink":"/blog/tags/non-profit","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

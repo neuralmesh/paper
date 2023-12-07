@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>paper Blog</title>
+        <link>https://paper.apimesh.io/blog</link>
+        <description>paper Blog</description>
+        <lastBuildDate>Thu, 07 Dec 2023 06:14:44 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Recursive AI Improvement Through Open Source Collaboration]]></title>
+            <link>https://paper.apimesh.io/blog/recursive-ai-improvement</link>
+            <guid>https://paper.apimesh.io/blog/recursive-ai-improvement</guid>
+            <pubDate>Thu, 07 Dec 2023 06:14:44 GMT</pubDate>
+            <description><![CDATA[Recursive AI Improvement Through Open Source Collaboration]]></description>
+            <content:encoded><![CDATA[<p>Recursive AI Improvement Through Open Source Collaboration
+Picture an AI that refines its intelligence with every human interaction. This paper discusses the creation of agents that upgrade recursively through continuous conversation and context-based learning. It’s about creating a cycle of endless improvement, all within an openly accessible repository.</p>
+<p>It's a non-profit journey where every individual's contribution is acknowledged. The project is not just a paper; it's an open invitation to be part of a landmark in AI research, where the list of co-authors grows with every contribution.</p>
+<p>Do you want to influence the future of AI? Engage in this collective project and help us shape intelligent agents that learn from the crowd. It’s a ground-breaking approach that champions open collaboration and shared progress in aligning large language models. Join us, contribute, and advance the frontier of AI together.</p>]]></content:encoded>
+            <category>open source</category>
+            <category>AI</category>
+            <category>machine learning</category>
+            <category>collaboration</category>
+            <category>non-profit</category>
+        </item>
+    </channel>
+</rss>
