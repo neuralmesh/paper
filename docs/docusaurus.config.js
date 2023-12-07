@@ -86,30 +86,7 @@ const config = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/neuralmesh',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/neuralmesh/paper',
-            },
-          ],
-        },
-      ],
+      links: [],
       copyright: `Copyright © ${new Date().getFullYear()} its yours. make something great.`,
     },
     prism: {
