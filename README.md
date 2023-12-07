@@ -1,10 +1,8 @@
 # paper
-the ultimate adhd project
+trying to make life easier
 
-you can just add specific functions or scripts or ideas and then we will add them to the graph
-
-another focus is to build a search engine for your specific use case and specialized model
+this was originally just a collection of thoughts and now im starting to collect papers and projects to build something more serious but free and open
 
 its like a nieche finder but also finds the simplest possible solution
 
-and builds it for you
+and builds it for you while you just play a nice little game 
